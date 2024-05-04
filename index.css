@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden; /* Disable horizontal scrolling */
+}
 .feature-card-container {
   gap: var(--dl-space-space-unit);
   display: flex;
@@ -937,6 +940,7 @@
 /* Logo Scroll  */
 .flex {
   display: flex;
+  width: 1400px;
 }
 .overflow-hidden {
   overflow: hidden;
